@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 158, in <module>
+    main(comments_csv_path, output_folder)
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 136, in main
+    df = pd.read_csv(comments_csv_path)
+AttributeError: module 'pandas' has no attribute 'read_csv'

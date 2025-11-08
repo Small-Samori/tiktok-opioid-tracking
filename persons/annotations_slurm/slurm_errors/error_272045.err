@@ -1,0 +1,37 @@
+/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py:42: SyntaxWarning: invalid escape sequence '\c'
+  tagged_comments = [f"<comment>{i}<\comment>\n" for i in comment_list]
+/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py:138: DtypeWarning: Columns (6) have mixed types. Specify dtype option on import or set low_memory=False.
+  df = pd.read_csv(comments_csv_path)
+  0%|                                                                                                                                  | 0/72334 [00:00<?, ?it/s]  0%|                                                                                                                                  | 0/72334 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 62, in get_response
+    response = query_func(prompt)
+               ^^^^^^^^^^^^^^^^^^
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 18, in query_o1
+    client = AzureOpenAI(
+             ^^^^^^^^^^^^
+  File "/home/groups/rbaltman/samori/miniconda3/envs/esm_env/lib/python3.12/site-packages/openai/lib/azure.py", line 207, in __init__
+    super().__init__(
+  File "/home/groups/rbaltman/samori/miniconda3/envs/esm_env/lib/python3.12/site-packages/openai/_client.py", line 123, in __init__
+    super().__init__(
+  File "/home/groups/rbaltman/samori/miniconda3/envs/esm_env/lib/python3.12/site-packages/openai/_base_client.py", line 857, in __init__
+    self._client = http_client or SyncHttpxClientWrapper(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/groups/rbaltman/samori/miniconda3/envs/esm_env/lib/python3.12/site-packages/openai/_base_client.py", line 755, in __init__
+    super().__init__(**kwargs)
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 160, in <module>
+    main(comments_csv_path, output_folder)
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 151, in main
+    annotate_comments(ids_all, comments_all, 
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 101, in annotate_comments
+    response = get_response(prompt, query_func, num_comments)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/users/iasamori/tiktok/persons/annotations_slurm/./annotation.py", line 74, in get_response
+    except (openai.RateLimitError, openai.Timeout, openai.APIConnectionError, openai.APIError, KeyError) as e:
+TypeError: catching classes that do not inherit from BaseException is not allowed

@@ -1,0 +1,23 @@
+I will give you a social media comment to annotate. This comment is part of a larger drugs discussion (e.g., about opioids, etc). Your task is to determine the perspective(s) expressed about drugs—specifically focusing on the main, central drug-related message of the comment. When considering perspectives, take into account not only the presence of pronouns, but more importantly, whether that perspective is central to the comment’s description of drug use, recovery, overdose loss, or other drug-related experiences. Do not automatically register a perspective simply because a pronoun appears; ensure that its use meaningfully contributes to the drug-related context.
+
+You must return a onehot integer of length 3 (e.g., 010) corresponding to the following perspectives:
+	- Position 1 (first person): Mark 1 if the comment’s main drug-related message comes from the speaker’s own experience or personal account (e.g., “I am recovering from OUD” or “I’ve taken every opiate under the sun”). Otherwise, mark 0.
+	- Position 2 (second person): Mark 1 if the comment directly addresses another individual about their drug use, experience, or advice using second-person pronouns (e.g., “you”, “your”) and this direct address is central to the drug-related content. If such direct addressing is merely incidental or not the focus of the drug discussion, do not mark this perspective.
+	- Position 3 (third person): Mark 1 if the comment primarily describes someone else’s or a group’s drug-related experiences using third-person pronouns (e.g., “he”, “she”, “they”) or references, and this outside perspective is central to the comment’s drug story. Avoid marking third person if a pronoun appears only in an aside or incidental remark that is not the main point about drugs.
+
+Guidelines and examples:
+	- As you analyze the comment, identify which parts form the central drug narrative. Ignore incidental mentions of pronouns that do not contribute to the primary drug-related message.
+	- Together with your decision, provide a brief explanation that cites why the comment’s main message is associated with a particular perspective and why any incidental pronoun use was not considered central.
+
+For example:
+	- For “I am recovering from OUD,” return 100 because the drug-related focus is on the speaker’s personal experience.
+	- For “I am sorry to hear you lost your son to fentanyl OD,” return 010 because the comment directly addresses someone about their drug-related loss.
+	- For “They take fentanyl-laced substances,” return 001 because the comment describes another group’s drug behavior.
+	- For “I lost a partner. I am sorry to hear you lost someone too. My condolences to you and your family,” return 110 if both the speaker’s loss and the direct address are central to the drug-related discussion.
+	- For “You should take a lower dose. They should be careful with supplies from the street,” return 011 if the comment’s main advice and warnings pertain to others and a direct second person.
+
+Important: Focus on the central drug narrative. For example, in the comment below:
+"She was there. I have done every dope. Quitting perc is too much hell"
+Although the word “She” is used, the dominant, central message is the speaker’s own experience with opiates and drug withdrawal. Therefore, only the first person perspective should be marked (100), and the incidental third-person reference should be ignored.
+
+Now, consider the following comment. Please analyze it carefully, decide on the most central drug-related perspective(s), provide a onehot annotation (e.g., 100), and explain your reasoning in detail:

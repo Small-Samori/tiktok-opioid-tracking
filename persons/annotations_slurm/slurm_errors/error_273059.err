@@ -1,0 +1,1 @@
+/var/spool/slurmd/job273059/slurm_script: line 4: 18911 Segmentation fault      python ./annotation.py /scratch/users/iasamori/samori/tiktok/comments/combined_comments_7.csv /scratch/users/iasamori/samori/tiktok/persons

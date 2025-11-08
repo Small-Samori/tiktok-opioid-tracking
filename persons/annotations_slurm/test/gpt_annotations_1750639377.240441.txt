@@ -1,0 +1,29 @@
+id	annotation	explanation	time
+1	'100'	The comment focuses on the speaker's personal experience with pain medications and their effectiveness, making the first person perspective central.	1750639384.1905434
+2	'100'	Despite the initial third-person reference, the central drug-related message is the speaker's own extensive opiate use and withdrawal experience, highlighting the first person perspective.	1750639384.1905434
+3	'100'	The comment primarily discusses the speaker's personal experience with alcohol and benzodiazepine withdrawals, emphasizing the first person perspective.	1750639384.1905434
+4	'100'	The comment centers on the speaker's own severe experience with Cymbalta withdrawal, making the first person perspective the main focus.	1750639384.1905434
+5	'101'	The comment highlights the speaker's personal loss (first person) and also describes the deaths of others due to fentanyl-laced Xanax (third person), making both perspectives central to the drug-related narrative.	1750639384.1905434
+6	'100'	The comment centers on the speaker’s personal experiences with friends and townspeople dying from fentanyl, utilizing first-person pronouns as the main drug-related message.	1750639391.5007122
+7	'100'	The comment focuses on the speaker’s own loss and inquiry about involvement, making the first-person perspective central to the drug-related content.	1750639391.5007122
+8	'100'	The primary message is the speaker’s personal struggle with addiction and their decision to stay clean, highlighting a first-person perspective.	1750639391.5007122
+9	'110'	The comment combines the speaker’s personal achievement of being clean for 18 years with direct advice to others to stay clean, making both first and second person perspectives central.	1750639391.5007122
+10	'100'	The comment is exclusively about the speaker’s journey from meth addiction to sobriety, using a first-person perspective as the main drug-related message.	1750639391.5007122
+11	'010'	The comment directly addresses another individual with praise and encouragement regarding their accomplishment, likely related to drug recovery, making the second person perspective central.	1750639405.3696368
+12	'010'	The comment expresses pride and acknowledges someone's transformation and testimony, directly addressing another individual, thus emphasizing the second person perspective.	1750639405.3696368
+13	'001'	The comment primarily describes another individual’s experience with drug overdose and death, using third-person references, making the third person perspective central.	1750639405.3696368
+14	'010'	The comment offers advice to another individual regarding their grief process, directly addressing them, thus the second person perspective is central.	1750639405.3696368
+15	'110'	The comment includes first person expressions of pride combined with direct praise and encouragement to another individual, making both first and second person perspectives central.	1750639405.3696368
+16	'010'	The comment directly addresses Lauri about her loss using second-person pronouns, which is central to the drug-related discussion. There is no primary first or third-person perspective.	1750639413.1941512
+17	'010'	The comment expresses sympathy directly to someone using second-person pronouns, making the second-person perspective central to the drug-related message.	1750639413.1941512
+18	'110'	The comment both directly addresses another individual about dosing (second person) and shares the speaker’s own experience with dosing effects (first person), making both perspectives central to the drug-related content.	1750639413.1941512
+19	'001'	The comment primarily describes others' drug-related practices using third-person pronouns, making the third-person perspective central to the message.	1750639413.1941512
+20	'001'	The comment discusses how others recommend Tylenol without providing education, using third-person pronouns, which is the central drug-related perspective.	1750639413.1941512
+21	'010'	The comment directly addresses the reader with advice about taking more Xanax, making the second person perspective central to the drug-related message.	1750639423.1497874
+22	'001'	The comment expresses sympathy for families affected by fentanyl losses, focusing on others' experiences without central first or second person perspectives.	1750639423.1497874
+23	'001'	The comment describes another individual's accidental fentanyl overdose, focusing on a third person narrative as the central drug-related message.	1750639423.1497874
+24	'001'	The comment discusses general perceptions about drugs, focusing on the experiences and beliefs of others, making the third person perspective central to the drug-related content.	1750639423.1497874
+25	'101'	The comment combines the speaker's personal loss and describes another person's accidental fentanyl overdose, involving both first and third person perspectives as central to the drug-related message.	1750639423.1497874
+26	'001'	The comment primarily discusses others' desire to be clean and the role of rehabs, using third-person pronouns like "they." There is no central focus on the speaker's own experience or direct address to another individual.	1750639433.7325683
+27	'001'	The main message describes the behavior and risks associated with others' use of legally prescribed opioids, using third-person references such as "ppl." The imperative "BE RESPONSIBLE" does not include a second-person pronoun and is not the central focus.	1750639433.7325683
+28	'001'	The comment centers on the experiences and struggles of others (patients and people) regarding pain medication use, utilizing third-person pronouns like "pts" and "ppl." There is no focus on the speaker's personal experience or direct address to another individual.	1750639433.7325683
