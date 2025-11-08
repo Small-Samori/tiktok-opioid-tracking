@@ -1,0 +1,3 @@
+[submodule "psych290_data"]
+	path = psych290_data
+	url = ./psych290_data
