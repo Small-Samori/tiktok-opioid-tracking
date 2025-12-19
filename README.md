@@ -5,8 +5,10 @@ Monitoring opioid-related chatter on social media can predict the course of opio
 
 
 <p align="center">
-  <img src="./notebooks/data/fig3.png" alt=" " style="width:50%; height:auto;">
+  <img src="./notebooks/data/fig4.png" style="width:48%; height:auto;">
+  <img src="./notebooks/data/fig3.png" style="width:48%; height:auto;">
 </p>
+
 
 
 
