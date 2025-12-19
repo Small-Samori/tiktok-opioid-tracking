@@ -2,5 +2,4 @@
 *.db
 *.zip
 *.ipynb_checkpoints
-*.zip
-*.db
+*.db-journal
