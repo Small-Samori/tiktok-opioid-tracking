@@ -11,7 +11,7 @@ Monitoring opioid-related chatter on social media can predict the course of opio
       <img src="./notebooks/data/fig4.png" style="width:100%; height:auto; margin-top:10px;">
     </td>
     <td align="center" style="border:none; width:50%; vertical-align:top;">
-      <b>TikTok Topics Improve Overdose Forecasting</b>
+      <b>TikTok Topics Improve Overdose Mortality Forecast</b>
       <br>
       <img src="./notebooks/data/fig3.png" style="width:100%; height:auto; margin-top:10px;">
     </td>
